@@ -2,6 +2,7 @@
 #include <string.h>
 #include <iostream>
 #include "Manager.h"
+#define _CRT_SECURE_NO_WARNINGS
 
 Employee::Employee(int id, char* name)
    {
@@ -47,3 +48,7 @@ int Employee::getID()
    {
    return ID;
    }
+const char* Employee::getName() const
+{
+	return name;
+}
