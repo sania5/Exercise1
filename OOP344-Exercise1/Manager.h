@@ -4,6 +4,7 @@ class Manager
    {
    private:
       int totalHours;
+
    protected:
    public:
       Manager();

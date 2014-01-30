@@ -58,6 +58,6 @@ int main()
    man.report();
    man.report();
 
-
+   _sleep(5000);
    return 0;
    }
